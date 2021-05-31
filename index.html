@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <title>Document</title>
+  <title>NYTimes Archive Demo</title>
   
 </head>
 <body>
@@ -20,7 +20,7 @@
     <div class="inputCard">
       <h3 class="card-header">Enter a Year and Month</h3>
       <form id="user-form" class="card-body">
-        <label class="form-label" for="year">(YYYY) ex. 1999</label>
+        <label class="form-label" for="year">Year</label>
         <input name="year" id="year" type="text" autofocus="true" class="form-input">
         <label class="form-label" for="month">Month</label>
         <select name="month" id="month">
@@ -45,8 +45,9 @@
 
     </div>
     <div class="col-12 col-md-8">
-      <h2 class="subtitle">Showing News For for: <span id="yearSearchTerm"></span> / <span id="monthSearchTerm"></span></h2>
+      <h2 class="subtitle">Showing News For for: <span id="monthYear"></span></h2>
       <div id="stories-container" class="list-group"></div>
+      
     </div>
 
 
