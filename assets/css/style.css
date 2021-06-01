@@ -1,0 +1,16 @@
+header{
+  width: 100;
+  text-align: center;
+  background-image: url("https://i0.wp.com/themindcircle.com/wp-content/uploads/2015/12/Christmas-Shopping-in-New-York-in-the-Past-11.jpg");
+  color: white;
+  text-size-adjust: large; 
+
+}
+
+.stories {
+  list-style: none; 
+}
+
+.stories li {
+  margin-top: 5px; 
+}
