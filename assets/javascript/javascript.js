@@ -87,7 +87,4 @@ function addElement() {
 
 } 
 
-
-
-
-addElement(); 
+addElement();
