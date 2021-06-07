@@ -1,0 +1,10 @@
+NYTIMES Archive
+
+![Screen Shot 2021-06-06 at 9 12 24 PM](https://user-images.githubusercontent.com/64555171/120947544-dd864a80-c70d-11eb-8e6d-6e96cdee0d40.png)
+
+Description: The NYTimes Archive allows users to enter a year and month returns 
+ten headlines from the specified period. Requiring a proxy circumvent CORS errors, 
+the website has a clickable modal that sends the user to a proxy site to link where
+users can enable one for a temporary amount of time. 
+
+
